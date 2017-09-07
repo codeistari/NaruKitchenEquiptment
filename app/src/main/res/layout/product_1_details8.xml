@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/products_commercial_mobile_tandoor"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:textColor="@android:color/holo_orange_dark"
+            android:text="SS Cladded Mobile Tandoor\n(Charcoal Model)"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="AISI SS 304 Food Grade quality steel body construction .\nDouble Body insulation with Industrail brick,cement,salt,glass and clay pot (upto 1000 deg C heat density temperature capacity).\nHigh pressure ISI Certified Sun Beam burners of 70000 BTU/hr with pilot burners connected inside earthen clay pot (For Gas Model).\nHeavy duty brass ISI certified Gas valve / cork for ease in operation (For Gas Model).\nAvailable in Granite,brick tiles or stainless steel top with Wood funishing on the outer surface of the material body.\nAvailable in stainless Steel or Mild steel industrial castors (available option) for smooth transportation.\For Sustainable, Flexible, Hygienic \u0026 enviornment friendly use."
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+</ScrollView>

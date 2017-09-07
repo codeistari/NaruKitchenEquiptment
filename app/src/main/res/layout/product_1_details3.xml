@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/product_commercial_two_burner"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="AISI SS 304 Food Grade quality steel body construction.\nStainless Steel Inner pipe frames \u0026 legs with adjustable nylon bullet feets.\nHigh pressure ISI Certified Torch burners of 50000 BTU/hr with pilot burners.\nRemovable heavy duty Mild steel 12mm thickness rest vessel with easy maintianence.\nSS 1 No. Undershelf with waste dip tray (under the burner).\nFor Sustainable, Flexible, Hygienic \u0026 enviornment friendly use."
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+</ScrollView>

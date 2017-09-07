@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_us"
+            android:title="About Naru" />
+
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/products_icon"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/clientsnew"
+            android:title="Clients" />
+
+
+
+        <item
+            android:id="@+id/nav_projects"
+        android:icon="@drawable/projects"
+        android:title="Projects" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/consultancy"
+            android:title="Consultancy" />
+        <item
+
+            android:icon="@drawable/contactusnew"
+            android:title="Contact Us"
+            android:id="@+id/nav_contact"/>
+
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Enquiry" />
+        </menu>
+    </item>
+-->
+
+</menu>

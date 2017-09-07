@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark"
+    android:background="#000000"
+    >
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:background="#000000"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/indigo"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="60dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/flags"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="60dp"
+            />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kailash_parbat"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rajdhani"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="left"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mod"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tgif"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="left"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hardrockcafe"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mcdonalds"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/uncleskitchen"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/maladgym"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/khargymkhana"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/doolally"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            />
+
+    </GridLayout>
+</ScrollView>

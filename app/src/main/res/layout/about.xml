@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark"
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/aboutHead"
+            android:textColor="#ffbb00"
+            android:textSize="25dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about1"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/about_table"/>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/about_topic1"/>
+        <TextView
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_topic2"
+            android:textColor="#ffffff" />
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView5"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/about_topic2"/>
+        <TextView
+
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_topic3"
+            android:textColor="#ffffff" />
+
+
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/iso_certificate"/>
+
+    </LinearLayout>
+
+</ScrollView>

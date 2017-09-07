@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Clients"
+            android:textSize="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="168dp"
+                android:src="@drawable/corporates"
+                android:id="@+id/client_corporates"
+                android:layout_margin="0dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Corporates"
+                android:layout_marginBottom="30dp"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="168dp"
+                android:src="@drawable/hotels"
+                android:id="@+id/client_hotels"
+                android:layout_margin="0dp"
+                android:layout_gravity="center"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="5 Star Hotels"
+            android:layout_marginBottom="30dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="168dp"
+            android:src="@drawable/restarunts"
+            android:id="@+id/client_restarunts"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="5 Star Restarunts"
+            android:layout_marginBottom="30dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="168dp"
+            android:src="@drawable/hospital"
+            android:id="@+id/client_hospitals"
+            android:layout_margin="0dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Hospitals"
+            android:layout_marginBottom="30dp"
+            android:textColor="#ffffff"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

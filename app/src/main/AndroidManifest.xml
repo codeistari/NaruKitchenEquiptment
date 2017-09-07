@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aaron.imageapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_main"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <!--android:theme="@style/AppTheme.NoActionBar"  this was added n the activity below-->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Naru Kitchen Equiptments"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WelcomeActiviti">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Clients_corporates_page"></activity>
+        <activity android:name=".Clients_fivestarhotels_page"></activity>
+        <activity android:name=".Clients_fivestarrest_page"></activity>
+        <activity android:name=".Clients_hospitals_page"></activity>
+        <activity android:name=".Product_1"></activity>
+        <activity android:name=".Products_1_details1"></activity>
+        <activity android:name=".Products_1_details2"></activity>
+        <activity android:name=".Products_1_details3"></activity>
+        <activity android:name=".Products_1_details4"></activity>
+        <activity android:name=".Products_1_details5"></activity>
+        <activity android:name=".Products_1_details6"></activity>
+        <activity android:name=".Products_1_details7"></activity>
+        <activity android:name=".Products_1_details8"></activity>
+        <activity android:name=".Products_1_details9"></activity>
+        <activity android:name=".Products_1_details10"></activity>
+        <activity android:name=".Product_2"></activity>
+        <activity android:name=".Video"></activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>

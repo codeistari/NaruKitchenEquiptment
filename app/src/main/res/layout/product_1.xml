@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Chinese Burner Gas Range"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_Chinese_Gas"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_main" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Single Burner Indian Cooking Gas Range"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_Single_Burner"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/product_commercial_single_burner_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Two Burner Indian Cooking Gas Range"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_Two_Burner"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/product_commercial_two_burner_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Four Burner Continental Cooking Gas Range"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_four"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_four_burner_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Six Burner Continental Cooking Gas Range"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_six"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_sixburner_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Commercial Tilting Boiling Pan"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_tilting_boiling"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_tilting_boiling_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Commercial Tilting Bratts Pan"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_tilting_bratts"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_tilting_bratts_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Cladded Mobile Tandoor \n         (Charcoal Model)"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_mobile_tandoor"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_mobile_tandoor_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Shawarma (Gas Model)"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_mobile_shawarma"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_shawarma_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Automatic Chappati Making Machine"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_chapati_making"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_chapati_maker_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Semi-Automatic Chappati Rolling Machine"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_chapati_rolling"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_chapati_roller_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Chappatti Plate with Puffer"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_chapati_plate"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_chapati_plate_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Dosa Plate / Bhatti"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_dosa_plate"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_dosa_plate_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Idli Steamer"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_idli_steamer"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_idli_steamer_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="SS Deep Fat Fryer"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/Commercial_deep_fat"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/products_commercial_deepfat_main" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@android:color/holo_orange_dark">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/products_commercial_automatic_chapati"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:text="AISI SS 304 \u0026 Aluminium of Food Grade quality body construction.\nWith capacity of 1000 Ch/hr, 5Kg Dough hopper capacity with 1.75KW/hr \u0026 2Kgs/hr Power and Gas consumption respectively.\nDouble Insulated body with Glass wool,ISI Certified Sun Beam burners of 70000 BTU/hr with pilot burners.\nBaking with 2 Tier conveyor system including puffing of the chappatis.\nAdjustable chappati diameter upto 150mm with wieght upto 45gms \u0026 thickness upto 3mm.\nHeavy duty crompton induction assembled motor with PBL gear box system.\nFor Sustainable, Flexible, Hygienic \u0026 enviornment friendly use."
+            />
+
+    </LinearLayout>
+</ScrollView>
